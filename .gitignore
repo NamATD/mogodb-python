@@ -1,0 +1,56 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model weights (Ultralytics)
+*.pt
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# Output folders/files
+output/
+*.log
+
+# CSV & data
+*.csv
+*.json
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Compiled C files
+*.so
+
+# Test cache
+.pytest_cache/
+
+# Log
+*.log
+logs/
+
+# Build
+build/
+dist/
+*.egg-info/
